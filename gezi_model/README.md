@@ -12,3 +12,8 @@ for i in listisim:
   model.wv.similarty(i,'kumsal')
   ```
  model başarısını ölçmek için yukarıdaki kodu girin kumsal bulunan şehirlerde değerin yüksek çıktığını bulunmayan şehirlerde ise daha düşük çıktığını gözlemleyebilirsiniz.
+
+# Model ile geliştirilebilinecek projeler 
+ -[Haber Gruplandırma](https://github.com/Halil-ibrahim-GUNBULAK/IMAGEPROCESSORS/tree/master/HaberGruplandirmaProgrami) projesinde olduğunu gibi doğal bir sinir ağı oluşturup modeli sınıflandırma için kullanabilirsiniz
+
+
