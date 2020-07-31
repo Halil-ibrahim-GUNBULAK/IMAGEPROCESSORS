@@ -10,10 +10,9 @@
 <img src="https://github.com/Halil-ibrahim-GUNBULAK/IMAGEPROCESSORS/blob/master/Ocr_icin_Kolay_dataset_olusturma/1%20(3).png" width="28" height="28"><img src="https://github.com/Halil-ibrahim-GUNBULAK/IMAGEPROCESSORS/blob/master/Ocr_icin_Kolay_dataset_olusturma/2%20(0).png" width="28" height="28">
 
 
-Böylelikle ekran görüntüsü aldığımızda yazdığımız kod resmin herbir 28 piksel genişlikte üzerinde geziniyor ve yeni bir resim şeklinde bizler için open cv
+Böylelikle ekran görüntüsü aldığımızda yazdığımız kod resmin herbir 28 piksel genişlikte üzerinde geziniyor ve yeni bir resim şeklinde bizler için open cv kütüphanesini kullanarak oluşturuyor.
 
-kütüphanesini kullanarak oluşturuyor.Oluşturulan resimlerden 1 tane test klasörüne 1 tane train klasörüne atıyoruz görüntü işlemede kullanılacak resimler genelde 1 test 5 train
-
+Oluşturulan resimlerden 1 tane test klasörüne 1 tane train klasörüne atıyoruz görüntü işlemede kullanılacak resimler genelde 1 test 5 train
 oranında olmalı hem bundan dolayı hemde resimlerin büyüklüklerini ve farklı açılardan görünümü sağlamak için cv2.resize ile resmi %110, %120, %130, %140 oranında büyütülmüş şekilde train klasörüne attık Hem bizden istenen 1/5 oranını sağladık hemde data setimizde daha büyük görünen harflerin olmasını sağladık.
 
 # Türk Alfabe data seti oluşturma
