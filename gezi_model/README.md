@@ -15,5 +15,5 @@ for i in listisim:
 
 # Model ile geliştirilebilinecek projeler 
  -[Haber Gruplandırma](https://github.com/Halil-ibrahim-GUNBULAK/IMAGEPROCESSORS/tree/master/HaberGruplandirmaProgrami) projesinde olduğunu gibi doğal bir sinir ağı oluşturup modeli sınıflandırma için kullanabilirsiniz
-
+<img src="https://github.com/Halil-ibrahim-GUNBULAK/IMAGEPROCESSORS/blob/master/gezi_model/test.png">
 
