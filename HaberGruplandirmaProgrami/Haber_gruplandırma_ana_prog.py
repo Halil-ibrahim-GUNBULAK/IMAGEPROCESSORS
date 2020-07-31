@@ -17,7 +17,7 @@ stopwords = stopwords.words('turkish')
 Spor         =['12/spor', 'voleybol', 'boks', 'hakem', 'basketbol', 'maç', 'hentbol', 'futbol', 'takım', 'taraftar'                         ]
 Cevre        =['13/cevre', 'deniz', 'rüzgâr', 'ekosistem', 'Enerjiyi', 'sahil', 'kirlilik', 'bitki', 'toprak', 'habitat'                    ]
 Ekonomi      =['5/ekonomi', 'kur', 'makro', 'risk', 'kriz', 'durgunluk', 'çöküntü', 'ekonomik', 'buhran', 'Maliye'                          ]
-Dunya        =['6/dunya','Brezilya', 'devletler',  'batı', 'Müslüman', 'Avrupa', 'dünya', 'Asya', 'Afrika', 'ABD'                       ]
+Dunya        =['6/dunya','Brezilya', 'devletler',  'batı', 'Müslüman', 'Avrupa', 'dünya', 'Asya', 'Afrika', 'ABD'                           ]
 Medya        =[ '8/medya','hesap', 'medya', 'kullanıcı', 'paylaşım', 'instagram', 'twitter', 'facebook', 'youtube', 'video'                 ]
 İsciSendika  =['2/isci-sendika','işçi', 'patron',  'SF', 'Ücret', 'emekçi', 'işvereni', 'Grev', 'izin', 'Fabrika'                           ]
 Bolge        =[ '4/bolge','Türkiye', 'ordu', 'üs', 'asker', 'Operasyon', 'güneybatı', 'bölge', 'kuzeybatısında', 'Güvenli'                  ]
@@ -76,7 +76,7 @@ class habersiniflandirma():
         except KeyError:
             counter=counter+1
             print(sonhal+" kelimesi uygun olmadığı için atlandı")
-        print('toplamaya başladı')
+        print('İşlem Başarıyla Devam Ediyor Lütfen Bekleyiniz...')
         toplamDegerKumesi[0]= toplamDegerKumesi[0] + sporToplam
         toplamDegerKumesi[1]= toplamDegerKumesi[1] + politikaToplam
         toplamDegerKumesi[2]= toplamDegerKumesi[2] + cevreToplam
