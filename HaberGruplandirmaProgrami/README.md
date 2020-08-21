@@ -1,9 +1,11 @@
+<p align="center">
+ <img src="https://github.com/Halil-ibrahim-GUNBULAK/IMAGEPROCESSORS/blob/master/HaberGruplandirmaProgrami/images/icon.png" width="500" height="250" alt="Image">
+</p>
 
-<img src="https://github.com/Halil-ibrahim-GUNBULAK/IMAGEPROCESSORS/blob/master/HaberGruplandirmaProgrami/simge.png" width="400" height="200">
 
 # Programın Amacı ve İşlevi
 
-- Haber Gruplandırma programı ismindende anlaşılacağı üzere türkçe haberleri 9 gruba ayırmaya yarayan, insan hayatını kolaylaştıran bir programdır.<br/>
+- Haber G programı ismindende anlaşılacağı üzere türkçe haberleri 9 gruba ayırmaya yarayan, insan hayatını kolaylaştıran bir haber gruplandırma programıdır.<br/>
 - Programın genel amacı insanların daha çabuk istediği türdeki haberlere ulaşması ve bazi haber sitelerinin daha fazla okunsun diye yanlış gruplandırılmış haberlerinin aslında hangi grupta olduğunu bulmak.<br/>
 - Geçen yıl AçıkHack yarışmasında 1. olan Summarify program ile birleştirilip kişinin hangi haber türünü beğenip , beğenmediğini yüzde oranıyla değerlendirip daha sağlıklı  kişinin seveceği şekilde Summarify sana özel kısmı düzenlenebilir.
 - HaberGruplandırma programı uzun metinlerde %98 başarı oranına sahiptir ve yanlış kategorize edilen bir haberi içerdiği sözcükler aracılığıyla ayırt edebilmektedir.<br/> 
@@ -26,14 +28,15 @@ Yaşam|Yaşam haberleri sağlık,yaşama dair olaylar ve ölüm haberlerini içe
 # Modelin Kurulum ve Kullanımı 
 Öncelikle bu dizindeki tüm dosyaları indirin ve bir klasöre çıkartın.Daha sonra import etmeniz gereken kütüphaneleri hızlıca import edin.
 Burada bulunan tüm sınıfları import etmeniz gerekiyor.<br/>
-import  numpy , cv2 , sklearn, matplotlib, gensim ,nltk (bu sınıflar sizde yoksa indirmeniz gerekiyor)<br/>
+import  numpy , cv2 , sklearn, matplotlib, gensim ,nltk,PyQt5 (bu sınıflar sizde yoksa indirmeniz gerekiyor)<br/>
 
 
 eğer nltk kütüphanesini ilk kez import ediyorsanız nltk.dowload demeniz programın çalışması için gereklidir böylece nltk kütüphanesindeki verileri indirmiş olacaksınız<br/>
 ->> import nltk<br/>
 ->> nltk.download()<br/> komutunu yazıp programı çalıştırdığında  indirebilirsiniz.<br/>
 Bunları kurduktan sonra haber_gruplandırıcı.py dosyasını açın ve çalıştırın ve kullanıma hazır hale gelecektir Programının kullanımını daha detaylı anlatımı aşağıdaki linkte video halindedir <br/>
-[Haber Gruplandırıcı Tanıtım Videosu](https://www.youtube.com/watch?v=cqCNIBmJ14o)<br/>
+<br>  <h2>TANITIM VİDEOSU<h2/> <br/> 
+[<img src="https://github.com/Halil-ibrahim-GUNBULAK/IMAGEPROCESSORS/blob/master/HaberGruplandirmaProgrami/images/tan%C4%B1t%C4%B1m-g%C3%B6rsel.png" width="500" height="250">](https://www.youtube.com/watch?v=Lcab5O0wbJ8)<br/>
 # Kendime Özgü Buna Benzer Bir Programı Nasıl Kodlayabilirim
 - Öncelikle kendinize çalışmak istediğniz  alan ile ilgili corpus hazırlamanız gerekiyor.(Detayli bilgi---> [Corpus Hazırlama](https://github.com/Halil-ibrahim-GUNBULAK/IMAGEPROCESSORS/tree/master/Corpus_Olusturma))
 -Daha sonra oluşturacağınız modeli word2vec_model_olusturma.py dosyasını açarak open("dosya adı.txt",'r') olan kısma corpusunuzun adını yazıp çalıştırabilirniz.
@@ -50,6 +53,9 @@ Bunları kurduktan sonra haber_gruplandırıcı.py dosyasını açın ve çalı�
 # Sıkça Sorulan Sorular(SSS)
 Algoritma Yeni mi?<br/>
 - Bildiğiniz üzere yapay zeka alanı yapay sinir ağları üzerinde yoğunlaşmış durumda bizim kurduğumuz ise kelimelerden oluşan doğal bir sinir ağı daha önce eşine rastlamadım algoritmanın.<br/>
+
+Kelime Listeleri Nasıl Oluşturuldu?
+- Kelime listeleri ilgili sınıflandırmayla ilgili isterseniz word2vec kütüphanesinin most.similar() donksiyonunu kullanarak oluşturun istersenizde sınıflandırma yapacağınız kelimenin terimsel ifadelerini kendiniz yazın iki türlüde başarılı olacaktır most.similar yaparken stopwordslerin olmadığına emin olmanız büyük önem arz ediyor.<br/>
 
 
 
